@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Header from "../components/Header";
+
 import "../styles/Tasks.css";
 
 const Profile = () => {
@@ -8,6 +9,7 @@ const Profile = () => {
     <>
       <Header />
       <div>This is your profile page</div>
+      <Footer />
     </>
   );
 };

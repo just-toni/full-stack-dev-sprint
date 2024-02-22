@@ -1,5 +1,7 @@
 // import React, { useState } from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
+
 import "../styles/Tasks.css";
 import { useCart } from "../context/CartContext";
 import Cart from "../components/Cart";
@@ -19,6 +21,7 @@ const Carts = () => {
       ) : (
         <div className="no-tasks">Empty Cart</div>
       )}
+      <Footer />
     </>
   );
 };

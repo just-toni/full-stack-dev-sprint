@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
+
 import "../styles/Tasks.css";
 
 const Women = () => {
@@ -8,6 +10,7 @@ const Women = () => {
     <>
       <Header />
       <div>This is the womens section</div>
+      <Footer />
     </>
   );
 };

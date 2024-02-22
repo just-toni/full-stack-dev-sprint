@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import "../styles/Tasks.css";
 
 const Brand = () => {
@@ -8,6 +9,7 @@ const Brand = () => {
     <>
       <Header />
       <div>Brand is here</div>
+      <Footer />
     </>
   );
 };
