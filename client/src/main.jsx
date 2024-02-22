@@ -3,9 +3,13 @@ import * as ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import Home from "./pages/Home";
-import Tasks from "./pages/Tasks";
+import Men from "./pages/Men";
+import Women from "./pages/Women";
+import Brand from "./pages/Brand";
+import Profile from "./pages/Profile";
+import Cart from "./pages/Cart";
 import { TasksProvider } from "./context/TasksContext";
-import Form from "./pages/Form";
+// import Form from "./pages/Form";
 
 const router = createBrowserRouter([
   {
@@ -13,13 +17,25 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/tasks",
-    element: <Tasks />,
+    path: "/men",
+    element: <Men />,
   },
   {
-    path: "/add-task",
-    element: <Form />,
+    path: "/women",
+    element: <Women />,
   },
+  {
+    path: "/brand",
+    element: <Brand/>,
+  },
+  {
+    path: "/profile",
+    element: <Profile/>,
+  },
+  {
+    path: "/cart",
+    element: <Cart/>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

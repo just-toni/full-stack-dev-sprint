@@ -6,15 +6,25 @@ const Header = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <Link to="/">My University Tasks</Link>
+        <Link to="/">MVMT</Link>
       </div>
       <ul className="nav-links">
         <li>
-          <Link to="/tasks">Tasks</Link>
+          <Link to="/men">Men</Link>
         </li>
         <li>
-          <Link to="/add-task">New Task</Link>
+          <Link to="/women">Women</Link>
         </li>
+        <li>
+          <Link to="/brand">Brand</Link>
+        </li>
+        <li>
+          <Link to="/profile">Profile</Link>
+        </li>
+        <li>
+          <Link to="/cart">Cart</Link>
+        </li>
+
       </ul>
     </nav>
   );
