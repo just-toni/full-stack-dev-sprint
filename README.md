@@ -58,3 +58,10 @@ By the end of your exploration of this branch, you should have a solid understan
 Should you have any questions or encounter any issues, please refer back to the presentation materials or feel free to reach out for support.
 
 Happy coding!
+
+- This is the main branch, is just a basic created app with one button in the middle. It has Material UI setup, however, I recommend not using it but you may if you want.
+- The guided/day1 branch has guided code you will need to follow along with the presentation. You may use this to start building your project. To switch to that branch, run this command:
+  ```
+  git checkout guided/day1
+  ```
+- The client folder has the frontend base code for React JS, and the server has the backend base code for Node JS.
