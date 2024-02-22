@@ -7,7 +7,7 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 3000
 
-mongoose.connect(MONGO_URL).then(() => console.log("Connected successfully")).catch(
+mongoose.connect(process.env.MONGO_URL).then(() => console.log("Connected successfully")).catch(
     (err) => console.error("Could connect to database ... try again", err)
 );
 
